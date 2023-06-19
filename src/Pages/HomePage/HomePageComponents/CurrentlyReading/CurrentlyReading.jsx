@@ -1,7 +1,7 @@
 import { useContext } from "react";
 import { BookContext } from "../../../../context/BooksProvider";
 import { BookCard } from "../BookCard/BookCard";
-
+import "./CurrentlyReading.css"
 export function CurrentlyReading(){
     const {bookdata} =useContext(BookContext);
 
@@ -10,8 +10,8 @@ export function CurrentlyReading(){
 
     return(
         <div>
-            <h2>Currenlty Reading</h2>
-            <div>
+            <h2>Currently Reading</h2>
+            <div className="currently-reading-list">
                 {currentlyReading.map((book)=> <BookCard book={book}/>)}
             </div>
             <hr />

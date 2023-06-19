@@ -15,7 +15,7 @@ export function SearchPage(){
             <NavLink to="/">Library</NavLink>
 
             <div>
-                Search: <input type="text" onChange={inputChangeHandler}/>
+                Search: <input className="search-box" type="text" onChange={inputChangeHandler}/>
             </div>
             <div>
                 {displayData.map((book)=>(
