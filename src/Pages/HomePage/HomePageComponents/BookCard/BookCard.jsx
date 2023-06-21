@@ -31,6 +31,7 @@ export function BookCard({book}){
                    
                 </select>
             </div>
+            <br />
         </div>
     )
 }
