@@ -11,6 +11,7 @@ export function WantToRead(){
         <div>
             <h3>Wants to read</h3>
             {wantstoRead.map((book)=><BookCard book={book}/>)}
+            <hr />
         </div>
     )
 }
