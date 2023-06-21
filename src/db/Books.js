@@ -42,7 +42,7 @@ export const books=[
         bookImg:
           "https://books.google.co.in/books/publisher/content?id=o4tmBAAAQBAJ&pg=PP1&img=1&zoom=3&hl=en&sig=ACfU3U0L3cmxcYvZ4lr0UKxcJkijPZhijw&w=1280",
         author: "Sachin Tendulkar",
-        category: "none"
+        category: "currently-reading"
       },
     
       {
