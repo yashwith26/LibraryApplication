@@ -2,6 +2,7 @@ import { NavLink } from "react-router-dom";
 import { useContext, useState } from "react";
 import { BookContext } from "../../context/BooksProvider";
 import { BookCard } from "../HomePage/HomePageComponents/BookCard/BookCard";
+import "./SearchPage.css"
 export function SearchPage(){
     const {bookdata} =useContext(BookContext);
 
@@ -14,7 +15,7 @@ export function SearchPage(){
         <div>
             <NavLink to="/">Library</NavLink>
 
-            <div>
+            <div className="search-box">
                 Search: <input className="search-box" type="text" onChange={inputChangeHandler}/>
             </div>
             <div>
